@@ -244,7 +244,6 @@
   top: -4px;
 }
 
-/* Centralize a tela de carregamento */
 .loading-screen {
     display: flex;
     flex-direction: column;
@@ -257,7 +256,6 @@
     z-index: 1000;
 }
 
-/* Spinner moderno */
 .loading-spinner {
     display: inline-block;
     width: 80px;
@@ -274,14 +272,12 @@
     }
 }
 
-/* Texto de carregamento */
 .loading-text {
     margin-top: 20px;
     font-size: 1.2rem;
     font-weight: 500;
 }
 
-/* Mensagem de conclusão */
 .completion-message {
     display: flex;
     flex-direction: column;
