@@ -4,17 +4,16 @@ import { criarModalidade, criarContrato, configCaixa, configurarAvaliacao, confi
 import LogoNextFit from '../assets/logo next fit.png';
 import {jwtDecode} from 'jwt-decode';
 import userToken from '../services/authServices';
+import '../styles/onboarding.css';
 
 import Step1Modalidade from './step1modalidade';
 import Step2Contrato from './step2contrato';
 import Step3Avaliacao from './step3avaliacao';
 import Step4Caixa from './step4caixa';
 import Step5Bloqueios from './step5bloqueios';
-import Step8Campos from './step8campos';
-import '../styles/onboarding.css';
-import Step7Financeiro from './step6financeiro';
 import Step6Financeiro from './step6financeiro';
 import Step7Vip from './step7vip';
+import Step8Campos from './step8campos';
 
 const Onboarding = () => {
   const [activeStep, setActiveStep] = useState(0);

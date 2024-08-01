@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { TextField, Button, Select, MenuItem, FormControl, InputLabel, Switch, FormControlLabel, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, IconButton } from '@mui/material';
+import { TextField, Button, Switch, FormControlLabel, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 import SettingsIcon from '@mui/icons-material/Settings'; 
 
-const Step6Financeiro = ({ onNext, onDadosChangeReceber, onDadosChangeComissao, onDadosChangeContrato, campos }) => {
+const Step6Financeiro = ({ onNext, onDadosChangeReceber, onDadosChangeComissao, onDadosChangeContrato }) => {
 
     const [openValidationDialog, setOpenValidationDialog] = useState(false);
     const [openConfigTaxaDialog, setOpenConfigTaxaDialog] = useState(false);

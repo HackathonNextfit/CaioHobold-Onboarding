@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TextField, Button, FormControl, Switch, FormControlLabel, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Select, InputLabel, MenuItem } from '@mui/material';
+import { TextField, Button, FormControl, Switch, FormControlLabel, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Select, MenuItem } from '@mui/material';
 
 const Step7Vip = ({ onNext, onDadosChange }) => {
 

@@ -1,4 +1,3 @@
-import './App.css';
 import Onboarding from './components/Onboarding';
 
 function App() {

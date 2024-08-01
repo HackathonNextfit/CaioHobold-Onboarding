@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, FormControl, Switch, FormControlLabel } from '@mui/material';
 
-const Step4Caixa = ({onNext, loading, onDadosChange}) => {
+const Step4Caixa = ({onNext, onDadosChange}) => {
 
     const [dados, setDados] = React.useState({
         EnviarRelFechamentoParaUsuariosEnvolvidos: true,

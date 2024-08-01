@@ -12,9 +12,9 @@ const Step3Avaliacao = ({ onNext, onDadosChange }) => {
     DataAlteracao: '',
     DataCriacao: '',
     Id: '',
-    QtdeDiasProximaAvaliacao: '',
+    QtdeDiasProximaAvaliacao: 90,
     Tenant: null,
-    TipoUnidadeMedidaAltura: '',
+    TipoUnidadeMedidaAltura: 1,
   });
 
   const [openValidationDialog, setOpenValidationDialog] = useState(false);
